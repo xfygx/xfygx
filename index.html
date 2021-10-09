@@ -8,10 +8,10 @@
 <h3>使用方法：</h3>
   <p>在 C:\ 创建 sslkey.log 文件。</p>
   <p>以管理员权限启动cmd.exe。在 cmd console 中，执行主程序 nao.exe 。文件 C:\sslkey.log 保存了实时抽取的 TLS KEY。</p>
-  <img src="cmd_line.jpg" />
+  <img src="cmd_line.jpg" width="640" height="120" />
   <p>把 sslkey.log 配置给 Wireshark，Wireshark即可实时解密当前主机的 TLS 会话。</p>
-  <img src="wireshark_set_keyfile.jpg" />
-  <img src="wireshark_capture_decrypt.jpg" />
+  <img src="wireshark_set_keyfile.jpg" width="640" height="480" />
+  <img src="wireshark_capture_decrypt.jpg" width="640" height="480" />
 <h3>注意</h3>
   <p>因为主程序使用DLL注入方式，将提取器附在Windows系统进程中，所以，主程序nao.exe会被EDR软件识别为病毒。如有疑虑，可在虚拟环境中验证。</p>
 <h3>Download</h3>
